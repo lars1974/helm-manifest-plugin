@@ -1,0 +1,7 @@
+name: "manifest-edit"
+version: "0.0.0"
+usage: "manifest-edit -f FILE (--bump-level=BUMP_LEVEL | --bump-version=BUMP_VERSION)"
+description: |-
+    Helm plugin for bumping/manually setting version number in local Chart.yaml file
+command: "python $HELM_PLUGIN_DIR/main.py"
+ignoreFlags: false
